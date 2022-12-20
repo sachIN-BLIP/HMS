@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+</head>
+
+<body style="background-color:   rgb(62, 132, 236);">
+    <h1 style="color: black;  margin-left: auto;
+    margin-right: auto;
+    width: 8em">
+   
+
+    <form method="POST">
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Symptoms_1</label>
+
+            <select class="form-control" id="s1" name="s1">
+                {% for i in data %}
+
+                <option>{{ i }}</option>
+                {% endfor %}
+
+            </select>
+        </div>
+        <BR></BR>
+        
+     
+        
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Symptoms_2</label>
+
+            <select class="form-control" id="s2" name="s2">
+                {% for i in data %}
+
+                <option>{{ i }}</option>
+                {% endfor %}
+
+            </select>
+        </div>
+        <BR></BR>
+      
+       
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Symptoms_3</label>
+
+            <select class="form-control" id="s3" name="s3">
+                {% for i in data %}
+
+                <option>{{ i }}</option>
+                {% endfor %}
+
+            </select>
+        </div>
+        <BR></BR>
+      
+     
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Symptoms_4</label>
+
+            <select class="form-control" id="s4" name="s4">
+                {% for i in data %}
+
+                <option>{{ i }}</option>
+                {% endfor %}
+
+            </select>
+        </div>
+
+        <BR></BR>
+        
+        
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Symptoms_5</label>
+
+            <select class="form-control" id="s5" name="s5">
+                {% for i in data %}
+
+                <option>{{ i }}</option>
+                {% endfor %}
+
+            </select>
+        </div>
+
+        <br>
+        
+        <button type="submit" class="btn btn-dark btn-sm btn-block">Submit</button>
+    </form>
+
+
+</body>
+
+</html>
